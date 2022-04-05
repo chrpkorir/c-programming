@@ -17,3 +17,9 @@ int main(void)
 	printf("%d, %d, %d\n", tab[0], tab[1], tab[2]);
 	return (0);
 }
+
+/** in the above example malloc is used to create space in memory
+ * by using sizeof instead of directly a number of bytes
+ * we are sure get the right amount of memory, no matter what 
+ * system we are compiling
+ */
