@@ -30,7 +30,7 @@ int main()
 
 	if (ch > 2)
 		return (0);
-	(*fun_ptr_arr[])(a, b);
+	(*fun_ptr_arr[ch])(a, b);
 
 	return (0);
 }
